@@ -29,3 +29,18 @@ npm outdated
 
 yarn list / yarn outdated
 คำสั่ง tươngเทียมกันในกรณีใช้ Yarn แทน npm
+
+==================================================================
+1. 
+git checkout -b upgrade/angular-12-to-13
+git add .
+git commit -m "chore: prepare for Angular 13 upgrade"
+
+# ลบโฟลเดอร์และ lockfile เก่า
+rm -rf node_modules package-lock.json  
+# ติดตั้ง dependencies ใหม่ทั้งหมด
+npm install
+# หากมีปัญหาต้องการล้างแคช สามารถใช้คำสั่ง
+npm cache clean --force
+
+ng update @angular/cli@13 @angular/core@13
