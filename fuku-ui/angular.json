@@ -91,7 +91,7 @@
           "options": {
             "main": "projects/resume/src/test.ts",
             "polyfills": "projects/resume/src/polyfills.ts",
-            "tsConfig": "tsconfig.spec.json",
+            "tsConfig": "projects/resume/tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "inlineStyleLanguage": "scss",
             "assets": [
