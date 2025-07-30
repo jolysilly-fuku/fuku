@@ -92,7 +92,7 @@
             "main": "projects/resume/src/test.ts",
             "polyfills": "projects/resume/src/polyfills.ts",
             "tsConfig": "projects/resume/tsconfig.spec.json",
-            "karmaConfig": "karma.conf.js",
+            "karmaConfig": "projects/resume/karma.conf.js",
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/resume/src/favicon.ico",
