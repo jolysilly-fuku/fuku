@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fuku-ui:build:production"
+              "buildTarget": "fuku-ui:build:production"
             },
             "development": {
-              "browserTarget": "fuku-ui:build:development"
+              "buildTarget": "fuku-ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fuku-ui:build"
+            "buildTarget": "fuku-ui:build"
           }
         },
         "test": {
